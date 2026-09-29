@@ -1,0 +1,16 @@
+Student Name: Ayomide Adeyeye
+GitHub Username: Manny-hub
+
+Authentication method I used: PAT
+
+Why I chose this method:
+I chose a Personal Access Token (PAT) because it allows me to authenticate securely when working with my GitHub repository over HTTPS. It also allows me to control and revoke the token if necessary.
+
+One security habit I must follow with this method:
+I must keep my PAT private and never share it in messages, screenshots, or public repositories. I should also avoid storing the token directly in my project files.
+
+Difference between a commit and a push:
+A commit records changes in my local Git repository and creates a saved point in the project history. A commit usually includes a message describing the changes that were made. A push sends my committed changes from the local repository to the remote repository on GitHub. Therefore, committing saves changes locally, while pushing transfers those commits to GitHub.
+
+My repository URL:
+https://github.com/Manny-hub/SE103-Week4
