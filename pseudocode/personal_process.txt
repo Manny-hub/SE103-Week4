@@ -1,0 +1,35 @@
+Student Name: Ayomide Adeyeye
+
+Problem:
+I prepare my backpack every evening before a school day. I want to make sure I have everything I need so I do not forget anything in the morning.
+
+Input:
+My class timetable for tomorrow, my backpack, my laptop, and my charger.
+
+Output:
+A packed backpack with everything needed for tomorrow's classes.
+
+Edge Case Handled:
+My laptop battery is low and it cannot be charged fully before I leave.
+
+Pseudocode:
+START
+  Open tomorrow's timetable
+  Create an empty packing list
+  FOR each class tomorrow
+    Add the books and materials for that class to the packing list
+  END FOR
+  Put every item on the packing list into the backpack
+  Put the charger into the backpack
+  IF laptop battery is below 50 percent THEN
+    Plug in the laptop overnight
+    Place a power bank in the backpack
+  ELSE
+    Put the laptop in the backpack
+  END IF
+  Check the packing list against the backpack contents
+  Zip the backpack and place it by the door
+END
+
+Why this is clear enough to follow:
+Every step is a single action that can be done in order. The loop makes it clear that the same action repeats for each class. The IF/ELSE decision uses a specific number, 50 percent, so nobody has to guess what low battery means. The edge case is handled directly inside the steps. Someone who has never seen my timetable could still follow this and pack correctly.
