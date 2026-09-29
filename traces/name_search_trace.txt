@@ -1,0 +1,20 @@
+Student Name: Ayomide Adeyeye
+Name list: ["Ama", "Kofi", "Yaw"]
+
+Trace 1 - target "Kofi":
+1. The list is not empty, so continue.
+2. Check "Ama": "Ama" equals "Kofi" is false, move on.
+3. Check "Kofi": "Kofi" equals "Kofi" is true, output "Found" and stop.
+Result: Found
+
+Trace 2 - target "Efua":
+1. The list is not empty, so continue.
+2. Check "Ama": not equal to "Efua".
+3. Check "Kofi": not equal to "Efua".
+4. Check "Yaw": not equal to "Efua".
+5. No names are left, so output "Not found".
+Result: Not found
+
+Empty list input: []
+Empty list result:
+Error: list is empty
