@@ -1,0 +1,28 @@
+Student Name: Ayomide Adeyeye
+
+Problem:
+Find which scores failed.
+
+Input:
+a list of student scores
+
+Output:
+the failing scores, or a message if no one failed
+
+Failing rule:
+score < 50
+
+Pseudocode:
+START
+  Create an empty list called failingScores
+  FOR each score in the list of student scores
+    IF score < 50 THEN
+      Add score to failingScores
+    END IF
+  END FOR
+  IF failingScores is empty THEN
+    OUTPUT "No one failed"
+  ELSE
+    OUTPUT failingScores
+  END IF
+END
