@@ -1,0 +1,4 @@
+Full Name: Ayomide Adeyeye
+GitHub Username: Manny-hub
+Date Started: 29/09/2026
+Auth Method: git@github.com:Manny-hub/SE103-Week4.git
