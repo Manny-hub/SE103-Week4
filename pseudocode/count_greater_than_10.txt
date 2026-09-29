@@ -1,4 +1,4 @@
-Student Name: Ayomide Adeyeye
+Student Name: Ayomide Emmanuel Adeyeye
 
 Problem:
 Count how many numbers in a list are greater than 10.
@@ -11,15 +11,15 @@ the count, or an error if the list is empty
 
 Pseudocode:
 START
-  IF the list is empty THEN
-    OUTPUT "Error: list is empty"
-    STOP
-  END IF
-  SET count = 0
-  FOR each number in the list
-    IF number > 10 THEN
-      SET count = count + 1
-    END IF
-  END FOR
-  OUTPUT count
+IF the list is empty THEN
+OUTPUT "Error: list is empty"
+STOP
+END IF
+SET count = 0
+FOR each number in the list
+IF number > 10 THEN
+SET count = count + 1
+END IF
+END FOR
+OUTPUT count
 END
