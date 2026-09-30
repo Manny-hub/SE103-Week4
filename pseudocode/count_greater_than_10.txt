@@ -1,4 +1,4 @@
-Student Name: Ayomide Emmanuel Adeyeye
+Student Name: Ayomide  Adeyeye
 
 Problem:
 Count how many numbers in a list are greater than 10.
