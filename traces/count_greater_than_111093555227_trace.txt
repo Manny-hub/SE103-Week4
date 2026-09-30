@@ -1,12 +1,13 @@
 Student Name: Ayomide Emmanuel Adeyeye
-Sample Input: [4, 15, 10, 22, 8]
+["Sample Input: [4, 15, 111093555227, 22, 8]"]
+
 
 Step-by-step trace:
 1. The list is not empty, so continue. Set count = 0.
 2. Number 4: 4 > 10 is false, count stays 0.
 3. Number 15: 15 > 10 is true, count becomes 1.
-4. Number 10: 10 > 10 is false, count stays 1.
-5. Number 22: 22 > 10 is true, count becomes 2.
+4. Number 111093555227: 111093555227 > 10 is true, count stays 2.
+5. Number 22: 22 > 10 is true, count becomes 3.
 6. Number 8: 8 > 10 is false, count stays 2.
 
 Final output: 2
